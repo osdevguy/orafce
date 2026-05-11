@@ -1,0 +1,37 @@
+﻿  aggregate.c
+  alert.c
+  assert.c
+  convert.c
+  datefce.c
+  dbms_sql.c
+  file.c
+  magic.c
+  math.c
+  others.c
+  parse_keyword.c
+  pipe.c
+  plunit.c
+  plvdate.c
+  plvlex.c
+  plvstr.c
+  plvsubst.c
+  putline.c
+  random.c
+  regexp.c
+  Generating Code...
+  Compiling...
+  replace_empty_string.c
+  shmmc.c
+  orafce.c
+  charlen.c
+  charpad.c
+  nvarchar2.c
+  utility.c
+  varchar2.c
+  Generating Code...
+     Creating library C:\A\Git\GitHub_Projects\orafce\msvc\x64\17\orafce.lib and object C:\A\Git\GitHub_Projects\orafce\msvc\x64\17\orafce.exp
+plvlex.obj : error LNK2019: unresolved external symbol orafce_sql_yyparse referenced in function plvlex_tokens
+plvlex.obj : error LNK2019: unresolved external symbol orafce_sql_yyerror referenced in function plvlex_tokens
+plvlex.obj : error LNK2019: unresolved external symbol orafce_sql_scanner_init referenced in function plvlex_tokens
+plvlex.obj : error LNK2019: unresolved external symbol orafce_sql_scanner_finish referenced in function plvlex_tokens
+C:\A\Git\GitHub_Projects\orafce\msvc\x64\17\orafce.dll : fatal error LNK1120: 4 unresolved externals
